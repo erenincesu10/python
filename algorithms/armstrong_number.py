@@ -1,11 +1,11 @@
 def armstrong(sayi):
 
-    toplam = 0
+    total = 0
 
     for rakam in str(sayi):
-        toplam += int(rakam)**4
+        total += int(rakam)**4
 
-    if toplam == sayi:
+    if total == sayi:
         return True
     else:
         return False
