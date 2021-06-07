@@ -8,7 +8,7 @@ for sayi in range(999999, 300000, -1):
     while n != 1:
         zincir += 1
         if n%2 == 0:
-            n //=  2 #// bölümün tam sayılı kısmını alır
+            n //=  2 
         else:
             n = 3*n + 1
 
@@ -16,4 +16,4 @@ for sayi in range(999999, 300000, -1):
         enUzun = zincir
         aranan = sayi
 
-print("Zincir sayısı : ",enUzun,"Sayımız : ",aranan)
+print("Zincir sayısı : ",enUzun,"Sayı : ",aranan)
